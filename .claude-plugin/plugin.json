@@ -1,0 +1,21 @@
+{
+  "name": "opencode-workers",
+  "version": "0.4.0",
+  "description": "Delegate well-scoped tasks to opencode workers and watch them live in a pane",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "defaultModel": {
+      "type": "string",
+      "title": "Default model",
+      "description": "opencode model used when the delegate call names none (provider/model)",
+      "default": "opencode-go/deepseek-v4.1-flash"
+    },
+    "extraDeniedCommands": {
+      "type": "string",
+      "title": "Extra denied commands",
+      "description": "More shell command patterns workers may never run, comma-separated (e.g. *artisan migrate*, *rails db:*)",
+      "default": ""
+    }
+  },
+  "license": "MIT"
+}

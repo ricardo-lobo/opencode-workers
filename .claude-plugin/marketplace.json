@@ -1,0 +1,11 @@
+{
+  "name": "lobo-mods",
+  "owner": { "name": "Ricardo Lobo" },
+  "plugins": [
+    {
+      "name": "opencode-workers",
+      "source": "./",
+      "description": "Delegate well-scoped tasks to opencode workers and watch them live in a pane"
+    }
+  ]
+}
